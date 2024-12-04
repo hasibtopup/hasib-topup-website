@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasib Top-Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>💎 Hasib Top-Up 💎</h1>
+        <p>Get your Free Fire Diamonds via bKash instantly!</p>
+        <p>Top-Up Service Provider: <strong>Hasib</strong></p>
+    </header>
+
+    <div class="content">
+        <div class="top-up-section">
+            <label for="diamondAmount">Enter Diamond Amount:</label>
+            <input type="number" id="diamondAmount" placeholder="Enter amount">
+            <button onclick="topUpDiamonds()">Top-Up</button>
+        </div>
+
+        <h2>Packages</h2>
+        <div id="packagesList" class="packages-list"></div>
+
+        <div class="contact-options">
+            <button onclick="openMessenger()">Contact via Messenger</button>
+            <button onclick="openWhatsApp()">Contact via WhatsApp</button>
+        </div>
+
+        <div class="bkash-payment">
+            <button onclick="initiateBkashPayment()">Send Money via bKash</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Hasib Top-Up. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
